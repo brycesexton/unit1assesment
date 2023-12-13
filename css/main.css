@@ -7,7 +7,7 @@ body {
     align-items: center;
 }
 
-#ovrcount {
+#ovrCount {
     font-size: 100px;
     display: flex;
     justify-content: center; 
@@ -16,7 +16,7 @@ body {
     margin-bottom: 50px;
 }
 
-#inputnum {
+#inputNum {
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -33,13 +33,13 @@ body {
 
 
 
-#minusbtn {
+#minusBtn {
     width: 135px;
     height: 135px;
     margin-left: 30px;
     font-size: 50px;
 }
-#plusbtn {
+#plusBtn {
     width: 135px;
     height: 135px;
     margin-right: 30px;
