@@ -31,17 +31,24 @@ body {
     justify-content: space-between;
 }
 
-
-
 #minusBtn {
     width: 135px;
     height: 135px;
     margin-left: 30px;
     font-size: 50px;
+    cursor: pointer;
+    background-color: lightgray;
+    font: white;
+    border: solid 2px gray;
 }
+
 #plusBtn {
     width: 135px;
     height: 135px;
     margin-right: 30px;
     font-size: 50px;
+    cursor: pointer;
+    background-color: lightgray;
+    font: white;
+    border: solid 2px gray;
 }

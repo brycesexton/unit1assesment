@@ -21,10 +21,10 @@ minusBtn.addEventListener("click", function() {
     updateDisplay();
 });
 
-
 function increase(plusBtn) {
     if (click) {
         count++;
+        plusBtn.style.backgroundColor = 'darkgrey'; 
     }
 }
 
@@ -33,3 +33,7 @@ function decrease(minusBtn) {
         count--;
     }
 }
+
+// function updateResult() {
+//     document.getElementById("result").textContent = count;
+// }
